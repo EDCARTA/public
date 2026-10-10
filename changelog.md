@@ -5,6 +5,22 @@ All notable changes to the EDCARTA project management platform will be documente
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.12.1] - 2026-10-10
+
+This version aligns the minimum password requirements with other EDCARTA resources such as Office 365. Passwords must now consist of 8 or more characters, including one upper case letter and one number. It also addresses dependency vulerabilities identified by GitHub Dependabot.
+
+### Added
+
+- Feedback is given to a user if a new password entered does not conform with the new standard.
+
+### Fixed
+
+### Changed
+
+- Creating a password now requires 8 or more characters, including one upper case letter and one number.
+
+### Removed
+
 ## [1.12.0] - 2026-09-08
 
 The current release is focused on adding MFA to the user login workflow. It also addresses dependency vulerabilities identified by GitHub Dependabot.
