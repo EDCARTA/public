@@ -5,6 +5,21 @@ All notable changes to the EDCARTA project management platform will be documente
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.13.0] - Unreleased
+
+This release adds a start date to project tasks and a new Tasks view to courses.
+
+### Added
+
+- Tasks can now have a start date in addition to a due date. It can be set when a task is created and on the task detail page, and a start date cannot be later than the due date.
+- Courses have a new Tasks tab (system administrators, account managers and account members) that shows the tasks linked to the course in any project, either as a Kanban board or as a Gantt chart. From the course a task's name, description, status and checklist can be updated and comments can be added; everything else is still done in the project.
+
+### Fixed
+
+### Changed
+
+### Removed
+
 ## [1.12.1] - 2026-10-10
 
 This version aligns the minimum password requirements with other EDCARTA resources such as Office 365. Passwords must now consist of 8 or more characters, including one upper case letter and one number. It also addresses dependency vulerabilities identified by GitHub Dependabot.
