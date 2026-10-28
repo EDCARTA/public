@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.13.0] - Unreleased
 
-This release adds a start date to project tasks, a new Tasks view to courses, a Gantt chart view to project tasks, alignment options for images and videos in course content, and a way to pin projects in the projects table. It also blocks access from mobile web browsers.
+This release adds a start date to project tasks, a new Tasks view to courses, a Gantt chart view to project tasks, alignment options for images and videos in course content, and a way to pin projects in the projects table. It also blocks access from mobile web browsers and moves completed checklist items to the bottom of project task checklists.
 
 ### Added
 
@@ -22,6 +22,7 @@ This release adds a start date to project tasks, a new Tasks view to courses, a 
 ### Changed
 
 - The platform web app is no longer available on mobile web browsers. Phones, and any browser window narrower than 600 pixels, now see a message asking users to open the platform from a desktop or laptop computer.
+- On a project task, a checklist item that is marked complete now moves to the bottom of the checklist, and moves back up if it is marked incomplete again.
 
 ### Removed
 
