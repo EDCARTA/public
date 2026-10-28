@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.13.0] - Unreleased
 
-This release adds a start date to project tasks, a new Tasks view to courses, and alignment options for images and videos in course content, and a way to pin projects in the projects table.
+This release adds a start date to project tasks, a new Tasks view to courses, and alignment options for images and videos in course content, a way to pin projects in the projects table, and blocks access from mobile web browsers.
 
 ### Added
 
@@ -19,6 +19,8 @@ This release adds a start date to project tasks, a new Tasks view to courses, an
 ### Fixed
 
 ### Changed
+
+- The platform web app is no longer available on mobile web browsers. Phones, and any browser window narrower than 600 pixels, now see a message asking users to open the platform from a desktop or laptop computer.
 
 ### Removed
 
