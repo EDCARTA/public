@@ -7,12 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.13.0] - Unreleased
 
-This release adds a start date to project tasks and a new Tasks view to courses.
+This release adds a start date to project tasks, a new Tasks view to courses, and alignment options for images and videos in course content.
 
 ### Added
 
 - Tasks can now have a start date in addition to a due date. It can be set when a task is created and on the task detail page, and a start date cannot be later than the due date.
 - Courses have a new Tasks tab (system administrators, account managers and account members) that shows the tasks linked to the course in any project, either as a Kanban board or as a Gantt chart. From the course a task's name, description, status and checklist can be updated and comments can be added; everything else is still done in the project.
+- Images and videos in course content can now be aligned left, center or right using the editor's alignment buttons.
 
 ### Fixed
 
