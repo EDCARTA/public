@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.13.0] - Unreleased
 
-This release adds a start date to project tasks, a new Tasks view to courses, a Gantt chart view to project tasks, alignment options for images and videos in course content, file preview for account and project files, and a way to pin projects in the projects table. It also blocks access from mobile web browsers and moves completed checklist items to the bottom of project task checklists.
+This release adds new ways to plan and organize project work, improves file handling, and makes a number of usability improvements.
 
 ### Added
 
@@ -17,6 +17,7 @@ This release adds a start date to project tasks, a new Tasks view to courses, a 
 - Files attached to an account or a project can now be previewed. A new Preview button next to Download opens the file in a new browser tab, where PDFs, images and other files the browser can display are shown directly.
 - Images and videos in course content can now be aligned left, center or right using the editor's alignment buttons.
 - Projects can now be pinned with a star button in a new Actions column of the projects table. Pinned projects stay at the top of the table, and your pins are saved in your browser, so they are not shared between devices.
+- When adding a course to a project and duplicating the tasks of another course, checklist items can now be copied too, using the new "Include checklist items" option. Copied items start as not completed.
 
 ### Fixed
 
