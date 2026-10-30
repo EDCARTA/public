@@ -25,6 +25,7 @@ This release adds new ways to plan and organize project work, improves file hand
 
 - The platform web app is no longer available on mobile web browsers. Phones, and any browser window narrower than 600 pixels, now see a message asking users to open the platform from a desktop or laptop computer.
 - On a project task, a checklist item that is marked complete now moves to the bottom of the checklist, and moves back up if it is marked incomplete again.
+- Tasks duplicated from another course when adding a course to a project now appear below the existing tasks, in the same order as the originals.
 
 ### Removed
 
