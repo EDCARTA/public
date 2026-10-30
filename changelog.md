@@ -7,16 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.13.0] - Unreleased
 
-This release adds a start date to project tasks and a new Tasks view to courses.
+This release adds new ways to plan and organize project work, improves file handling, and makes a number of usability improvements.
 
 ### Added
 
 - Tasks can now have a start date in addition to a due date. It can be set when a task is created and on the task detail page, and a start date cannot be later than the due date.
 - Courses have a new Tasks tab (system administrators, account managers and account members) that shows the tasks linked to the course in any project, either as a Kanban board or as a Gantt chart. From the course a task's name, description, status and checklist can be updated and comments can be added; everything else is still done in the project.
+- The Tasks page of a project now has a Gantt chart view next to the Kanban board. Use the Board and Gantt buttons to switch between them. The chart shows each task over time, from its start date to its due date, and the search, owner and course filters apply to both views.
+- Files attached to an account or a project can now be previewed. A new Preview button next to Download opens the file in a new browser tab, where PDFs, images and other files the browser can display are shown directly.
+- Images and videos in course content can now be aligned left, center or right using the editor's alignment buttons.
+- Projects can now be pinned with a star button in a new Actions column of the projects table. Pinned projects stay at the top of the table, and your pins are saved in your browser, so they are not shared between devices.
+- When adding a course to a project and duplicating the tasks of another course, checklist items can now be copied too, using the new "Include checklist items" option. Copied items start as not completed.
 
 ### Fixed
 
 ### Changed
+
+- The platform web app is no longer available on mobile web browsers. Phones, and any browser window narrower than 600 pixels, now see a message asking users to open the platform from a desktop or laptop computer.
+- On a project task, a checklist item that is marked complete now moves to the bottom of the checklist, and moves back up if it is marked incomplete again.
+- Tasks duplicated from another course when adding a course to a project now appear below the existing tasks, in the same order as the originals.
 
 ### Removed
 
