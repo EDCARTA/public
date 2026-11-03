@@ -18,6 +18,7 @@ This release adds new ways to plan and organize project work, improves file hand
 - Images and videos in course content can now be aligned left, center or right using the editor's alignment buttons.
 - Projects can now be pinned with a star button in a new Actions column of the projects table. Pinned projects stay at the top of the table, and your pins are saved in your browser, so they are not shared between devices.
 - When adding a course to a project and duplicating the tasks of another course, checklist items can now be copied too, using the new "Include checklist items" option. Copied items start as not completed.
+- Files can now be attached to project tasks. A new Files section below the checklist on the task page lets you upload files, preview and download them, edit their descriptions and delete them.
 
 ### Fixed
 
